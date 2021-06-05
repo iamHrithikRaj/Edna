@@ -1,0 +1,174 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_unhappy
+  - mood_happy
+  - mood_excited
+  - mood_angry
+  - mood_scared
+  - mood_nervous
+  - bot_challenge
+  - lack_of_collaboration_and_cooperation
+  - lack_of_commitment_and_professionalism
+  - lack_of_attendance_and_punctuality
+  - lack_of_productivity_and_quality_of_work
+  - lack_of_adaptability
+  - lack_of_communication_and_interpersonal_skills
+  - lack_of_creativity_and_innovation
+  - lack_of_accountability
+  - lack_of_customer_focus_and_customer_satisfaction
+  - lack_of_decision_making_and_problem_solving
+  - lack_of_dependability_and_reliability
+  - lack_of_ethics_and_integrity
+  - lack_of_flexibility
+  - lack_of_goal_setting
+  - lack_of_initiativity
+  - lack_of_job_knowledge
+  - lack_of_judgment
+  - lack_of_listening_skills
+  - lack_of_leadership_and_mentoring
+  - lack_of_management_style_and_supervision
+  - lack_of_organizing_and_planning
+  - lack_of_teamwork
+  - lack_of_technical_skills
+  - lack_of_time_management
+  - lack_of_training_ability
+  - lack_of_attitude
+  - lack_of_critical_thinking
+  - general_issue
+
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_mood_excited:
+  - text: "I'm glad you are excited"
+
+  utter_mood_sad:
+  - text: "Why are you sad?"
+  - text: "What's the reason you are sad?"
+
+  utter_mood_angry:
+  - text: "Why are you so angry?"
+  - text: "What's the reason you are so angry?"
+
+  utter_mood_scared:
+  - text: "Why are you so worried?"
+  - text: "What's the reason you are so worried?"
+
+  utter_cheer_up:
+  - text: "Be positive"
+
+  utter_did_that_help:
+  - text: "Did that help?"
+  - text: "Was that helpful?"
+  
+  utter_mood_nervous:
+  - text: "Why are you so nervous?"
+  - text: "What's the reason you are so nervous?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, developed by Hrithik Raj"
+  - text: "My name is Edna, I was developed by Hrithik Raj" 
+
+  utter_lack_of_collaboration_and_cooperation:
+  - text: "Looks like there's lack of Collaboration and Cooperation."
+
+  utter_lack_of_commitment_and_professionalism:
+  - text: "Hmmm, Maybe there's lack of Commitment and Professionalism."
+
+  utter_lack_of_attendance_and_punctuality:
+  - text: "I think this issue is related to Attendance and Punctuality"
+
+
+  utter_lack_of_productivity_and_quality_of_work:
+  - text: "Looks like there's lack of Productivity and Quality of work."
+
+  utter_lack_of_adaptability:
+  - text: "I think there's lack of Adaptibility"
+
+  utter_lack_of_communication_and_interpersonal_skills:
+  - text: "This is definitly the case of lack of Communication and Interpersonal skills."
+
+  utter_lack_of_creativity_and_innovation:
+  - text: "There's lack of Creativity and Innovation"
+
+  utter_lack_of_accountability:
+  - text: "These types of issue generally arise due to lack of Accountability"
+
+  utter_lack_of_customer_focus_and_customer_satisfaction:
+  - text: "There's lack of Customer Foucs and Customer Satisfaction"
+
+  utter_lack_of_decision_making_and_problem_solving:
+  - text: "Hmmmm, there's lack of Decision making and problem solving."
+
+  utter_lack_of_dependability_and_reliability:
+  - text: "There's lack of dependability and reliability"
+
+  utter_lack_of_ethics_and_integrity:
+  - text: "The issue here is lack of Ethics and Integrity"
+
+  utter_lack_of_flexibility:
+  - text: "The issue here is lack of Flexibility"
+
+  utter_lack_of_goal_setting:
+  - text: "The issue here is lack of goal setting."
+
+  utter_lack_of_initiativity:
+  - text: "The issue here is lack of Initiativity"
+
+  utter_lack_of_job_knowledge:
+  - text: "Looks like the issue is lack of Job Knowledge."
+
+  utter_lack_of_judgment:
+  - text: "This is the case of lack of Judgment"
+
+  utter_lack_of_listening_skills:
+  - text: "There's a lack of Listening Skills"
+
+  utter_lack_of_leadership_and_mentoring:
+  - text: "Ummmm, looks like the issue is lack of leadership and mentoring."
+
+  utter_lack_of_management_style_and_supervision:
+  - text: "Clear case of lack of Management style and supervision"
+
+  utter_lack_of_organizing_and_planning:
+  - text: "I think this issue is realted to lack of Organizing and Planning"
+
+  utter_lack_of_teamwork:
+  - text: "Hmmm, looks like there's no team work"
+
+  utter_lack_of_technical_skills:
+  - text: "I think the issue is related to lack of Technical Skills"
+
+  utter_lack_of_time_management:
+  - text: "This issue is a common one, lack of Time Management"
+
+  utter_lack_of_training_ability:
+  - text: "Maybe there's lack of Training Ability"
+
+  utter_lack_of_attitude:
+  - text: "This issue is due to lack of proper Attitude"
+
+  utter_lack_of_critical_thinking:
+  - text: "There's lack of critical thinking"
+
+  utter_general_issue:
+  - text: "Such issue are very general"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,18 @@
+[
+  {
+    "text": "good afternoon",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.5445711612701416
+    }
+  },
+  {
+    "text": "He does not return communications in a timely manner.",
+    "intent": "lack_of_attendance_and_punctuality",
+    "intent_prediction": {
+      "name": "lack_of_communication_and_interpersonal_skills",
+      "confidence": 0.9424769878387451
+    }
+  }
+]

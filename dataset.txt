@@ -1,0 +1,1279 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - hey
+    - helloo
+    - hellooo
+    - g morining
+    - gmorning
+    - good morning
+    - morning
+    - good day
+    - good afternoon
+    - good evening
+    - greetings
+    - greeting
+    - good to see you
+    - its good seeing you
+    - how are you
+    - how're you
+    - how are you doing
+    - how ya doin'
+    - how ya doin
+    - how is everything
+    - how is everything going
+    - how's everything going
+    - how is you
+    - how's you
+    - how are things
+    - how're things
+    - how is it going
+    - how's it going
+    - how's it goin'
+    - how's it goin
+    - how is life been treating you
+    - how's life been treating you
+    - how have you been
+    - how've you been
+    - what is up
+    - what's up
+    - what is cracking
+    - what's cracking
+    - what is good
+    - what's good
+    - what is happening
+    - what's happening
+    - what is new
+    - what's new
+    - what is neww
+    - g'day
+    - howdy
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - talk to you later
+    - cya
+    - ciao
+    - until next time
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - yes
+    - yep
+    - yeah
+    - indeed
+    - that's right
+    - ok
+    - great
+    - correct
+    - perfect
+    - sounds good
+    - sounds great
+    - nice
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - no
+    - nope
+    - no way
+    - not true
+    - no thanks
+    - nah
+    - never
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you a robot?
+    - am I talking to an actual person?
+    - you're a bot aren't you?
+    - are you even a real person?
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you a robot?
+    - am I talking to an actual person?
+    - you're a bot aren't you?
+    - are you even a real person?
+
+- intent: lack_of_collaboration_and_cooperation
+  examples: |
+    - He is not a willing team player and prefers to work individually.
+    - He is unwilling to assist coworkers, even when asked.
+    - He is professional in his work but is unwilling to give advice to others.
+    - He was unwilling to give help when requested to.
+    - He does not have the necessary skills to complete the work and is unwilling to find someone who does.
+    - He has not joined the group even after being required to.
+    - He doesn’t communicate with other employees nor help when asked.
+    - He was unwilling to listen to or take on board the wealth of advice given to him.
+    - Despite being a team member, he doesn’t complete his allocated tasks.
+    - Despite numerous invitations to join the team, he prefers to work alone.
+    - He does not permit his staff to assist other departments.
+    - He does not assist others when they need it.
+    - He does not see the workplace as a team environment and prefers to go it alone.
+    - He does not provide a team- centered support environment.
+    - He cannot commit his team towards the organization’s goals.
+    - He shows himself to be a person who does not want to work with others.
+    - He does not share key information with colleagues because he fears he will be marginalized.
+    - He is known to be hot- tempered with his colleagues.
+    - He is the person least likely to offer assistance when needed.
+    - He demonstrates a desire to avoid working with others.
+    - He is very good when performing individual tasks but is weaker when required to work in a team or with coworkers.
+    - He easily takes on new tasks well but fails to communicate with and train others who may also be required to take them on.
+    - He consistently fails to be an effective team player. He needs to improve on his teamwork over the coming months.
+    - He is cautious and afraid of confrontation which leads to him being averse to taking risks.
+    - He is easily upset when not offered assistance when he feels he needs it. He does not help others.
+    - He is too focused on finding new ways to accomplish things rather than cooperating with others in a process which is already well tested and defined.
+    - He tends to complain about a lack of resources and personnel instead of making do with what he has
+    - He tends to be distant and unapproachable. His colleagues hesitate to ask him for assistance due to his standoffishness.
+    - He needs to be aware of when he should offer assistance to others at work.
+    - He displays an uncooperative attitude.
+    - He is unwilling to share his work or team responsibilities with others.
+    - He is unwilling to foster good relationships with other teams and is not open- minded.
+    - His communication is poor meaning his team meetings are rarely effective.
+    - Since being promoted to supervisor, he has been “too busy” to assist his employees when they need an extra set of hands to help. This unwillingness to offer assistance promotes a selfish work environment.
+    - She is cautious and prefers to avoid confrontation. She is unlikely to openly risk conflict this by helping someone.
+
+
+- intent: lack_of_commitment_and_professionalism
+  examples: |
+    - He is often late for work and is unable to provide an acceptable excuse.
+    - He fails to perform his required duties.
+    - He takes excessive breaks and is reluctant to perform his duties.
+    - He often attempts to leave the workplace early.
+    - He talks excessively and this distracts himself and his colleagues. His lack of focus means that tasks take longer than they should.
+    - He is unwilling to work any overtime at all beyond his contracted 40- hour working week.
+    - He seizes any opportunity to avoid work and procrastinate. His breaks are twice as long as they should be.
+    - He fails to show any real interest in his job.
+    - He fails to ensure his work complies with the relevant quality standards.
+    - He violates the company’s internal code of ethics.
+    - He rarely complies with the applicable hygiene standards.
+    - His attitude is too informal.
+    - He fails to make any attempt to improve his performance,
+    - He is frequently late for work and dresses improperly.
+    - He is reluctant to take responsibility for self- development.
+    - He is unable to separate his work and personal life.
+    - He is dishonest when reporting statistics to deceive and confuse others.
+    - He is unable to develop performance improvement strategies.
+    - He is rarely on time and his appearance is untidy.
+    - He is reluctant to take responsibility for self- development.
+
+
+
+- intent: lack_of_attendance_and_punctuality
+  examples: |
+    - He is generally a good member of staff but his attitude sometimes lets him down.
+    - He has an inconsistent attitude that often negatively affects the team.
+    - He has a good working relationship with his team but there are some issues with other managers that need to be resolved.
+    - He is very composed but he displays a poor attitude that must be improved.
+    - He frequently takes breaks after meetings in which difficult decisions were announced.
+    - He appears uninterested and detached from his work lately as if he is no longer engaged in it.
+    - It is clear that he is not satisfied with his work. He should consider the impact his attitude is having on others.
+    - He frequently presents a superior attitude toward coworkers. His demeanor is rude and unfriendly.
+    - He displays a negative outlook at times which may be damaging to the team.
+    - He follows the appropriate schedule but he is often late returning from off- site activities which negatively impacts his coworkers.
+    - He is very punctual herself but he fails to ensure that his staff are also. He needs to manage this better.
+    - His punctuality is very poor and unacceptable. He is very rarely on time.
+    - If his attendance fails to improve within 90 days, his employment will be terminated under the company’s attendance policy.
+    - He is a capable and skilled worker; however he is let down by his abysmal punctuality which must be improved.
+    - He routinely falls behind in her daily meeting schedule which then impacts the schedules of others. She should address this immediately to remove the negative impacts on others.
+    - He is often tardy for work and despite repeated warnings, does not respect the attendance policy.
+    - He has had excellent attendance for most of the year but he has frequently been absent or late for work recently. His timekeeping needs to be return to its previous reliability.
+    - Despite good attendance overall, he frequently leaves early, or takes a half day of unscheduled time off on Friday during the summer. This provides a bad impression for his coworkers and employees.
+    - He does not meet the attendance standards for punctuality.
+    - He has exceeded the maximum number of vacation days allotted.
+    - He is frequently late.
+    - He does not return communications in a timely manner.
+    - He is often late for work and, despite frequent warnings, does not follow the attendance policy.
+    - He is frequently late to work in winter because he fails to account for weather and traffic in his daily commute.
+    - Although he is mostly reliable in following his schedule, there is the occasional issue. He should try to address this.
+    - He shows a lack of respect for coworkers who have finished their shifts through his tardiness.
+    - Management has noticed that he takes longer breaks than he is allotted.
+    - He does not meet current standards for punctuality and/or attendance.
+    - He needs to work on time management.
+    - He fails to respect the time of others.
+    - He utilizes time effectively.
+    - He needs to utilize the time he is given more effectively.
+    - He Is a reliable performer and maintains a good schedule.
+    - He is unreliable and often late for work.
+    - He is often late for the beginning of his work shift and consistently tardy returning from lunch.
+    - He is continually late for work. He must improve his attendance record in order to comply with company policy.
+    - He is continually late for work and should improve this area by focusing on arriving on time each day.
+    - He often takes extended lunches and does not make up the added time in his work schedule.
+    - He took several more personal days than permitted. He was frequently absent when needed.
+    - He frequently provides excuses for his late arrival times. He is unable to account for delays such as heavy traffic in his travel time.
+    - He does not arrive on time in the morning and then leaves at his normally scheduled exit time. He needs to improve his time keeping.
+
+
+
+
+
+
+- intent: lack_of_productivity_and_quality_of_work
+  examples: |
+    - He rarely achieves his monthly performance targets.
+    - He makes frequent process errors.
+    - He produces a higher defect rate than his peers.
+    - His work does not comply with the required output standards.
+    - He demonstrates a low level of knowledge of the required work procedures.
+    - He is reluctant to take on new responsibilities.
+    - He cannot be relied upon to produce a product that is up to expectations.
+    - The products produced by him have an unacceptably high defect level.
+    - He is unable to concentrate on his work.
+    - He is unaware of his job requirements.
+    - The quality of his work is unreliable.
+    - He fails to spend sufficient time to check his work before submission.
+    - His work frequently fails to pass inspection.
+    - He is unwilling to assume responsibilities outside of his job description.
+    - He is a bad influence on morale within the team.
+    - He is unwilling to train and learn new skills.
+    - He doesn’t contribute ideas to projects or his suggestions are ambiguous.
+    - He seems unwilling to learn new skills.
+    - He is unable to perform his job without assistance.
+    - His lack of concentration results in a high level of errors.
+    - He has little understanding of the competitive business landscape.
+    - He has difficulty in locating the necessary information to complete his job responsibilities.
+    - He produces too many unnecessary errors.
+    - His work quality is substandard.
+    - He fails to demonstrate a strategic mindset.
+    - He does not demonstrate sufficient competency in the basic concepts of his role.
+    - His work cannot be relied on.
+    - His work doesn’t pass inspection by other team members.
+    - He doesn’t pay attention to the details of the tasks he is assigned.
+    - He overlooks key requirements given to him for his tasks.
+    - He produces unreliable work output.
+    - He doesn’t spend enough time reviewing his work before handing it in as complete.
+    - He never performs as well as we expect.
+    - He usually makes mistakes when performing his duties.
+    - He rarely pays attention to the details of his duties.
+    - His work is consistently being passed back for rework.
+    - He doesn’t understand the key requirements of his job.
+    - The quality of his products is unreliable.
+    - He doesn’t spend enough time checking his work before handing it over.
+    - He cannot be relied upon. He is unable to produce the quality of products that is expected.
+    - Products made by him contain many errors and rarely pass any inspection phase.
+    - He doesn’t focus on details of his tasks. His products contain many errors.
+    - He often makes mistakes in his work.
+    - He is unable to focus on the important tasks and ensure they are completed first.
+    - We can not rely on him to produce a quality product.
+    - He doesn’t take enough time to carefully check his core performance products before submission.
+    - He does not understand how to deal with difficult demands from a client or customer.
+    - He is falling behind coworkers when it comes to producing results.
+
+
+
+- intent: lack_of_adaptability
+  examples: |
+    - He is slow to confront any changes.
+    - He follows established procedures so strictly that he is resistant to change.
+    - He is unwilling to accept even minor changes.
+    - He is frequently completes any plan or project late.
+    - He neglects tasks perceived as low priority.
+    - He rarely attends any independent, research based activities.
+    - He rarely cooperates with other departments or assists them to complete their tasks.
+    - He is easily demotivated if things fail to perform as well as expected.
+    - He frequently avoids or delays attending training, or deployment of new programs.
+    - He is reluctant to take responsibility for “menial” tasks.
+    - He does not demonstrate an ability to work or conduct research independently.
+    - He is unwilling to assume responsibility for colleagues’ tasks when necessary.
+    - He is easily confused about “out of plan” changes.
+    - He is unwilling to accept last- minute changes.
+    - He fails to fulfill the responsibilities stated in his job description seriously.
+    - He is unwilling to accept even minor changes.
+
+
+
+
+- intent: lack_of_communication_and_interpersonal_skills
+  examples: |
+    - He lacks communication skills.
+    - His message is easily misunderstood by others due to his lack of communication skills.
+    - He fails to communicate with his team members in an effective way.
+    - He directs quickly but has a bad attitude with his feedback.
+    - He does appreciate that happy team members can affect his own job performance and this makes those around him unpleasant.
+    - He has left a wake of bad relationships in his career path.
+    - He should keep on cultivating good relationships with others around him.
+    - He has not related to his coworkers well.
+    - He does not understand that having good working relationships with others in a team is very important.
+    - He does not understand how complicated relationships management is.
+    - He is a gentle coworker, but the people around him do not like him because of his strong personality.
+    - He complains of a lack of resources to adequately complete job functions.
+    - He fails to alert the proper personnel regarding bad news.
+    - He regularly engages in off- putting conversations and can be territorial at times.
+    - He humiliates staff members on a regular basis.
+    - He has other coworkers deliver bad news instead of doing it himself.
+    - He makes others feel intimidated when working on company projects.
+    - His position requires him to have sufficient technical skills, however, he does not speak up during technical meetings to discuss potential solutions.
+    - He must improve his foreign language skills to stay competitive in this industry.
+    - He is not adept at documenting verbal communication. He should work on this skill over the next 90 days.
+    - One of his roles is to find consensus among his team members, but he has frequently failed to accomplish this task.
+    - He does not communicate effectively and clearly.
+    - He holds too many meetings. Holding fewer meetings would be more effective.
+    - He should communicate project status updates more frequently.
+    - He lacks credibility in his messages. His coworkers do not believe he is honest.
+    - He does not convey a positive image of the company to customers.
+    - He has proven to be an ineffective communicator.
+    - He does not effectively communicate. He must improve both his written and verbal communication.
+    - He does not work well with others.
+    - He has a very strong personality and this has caused a rift on our team.
+    - He creates an excellent impression among the management team, yet his fellow team members cannot stand working with him.
+    - He should continue to work on cultivating good relationships with those around him.
+    - He works well with members of his own team, yet he has an “us” against “them” mentality when it comes to others within the company.
+    - Many of his coworkers see him as unapproachable.
+    - He gives off an impression of superiority to those around him.
+    - He is brisk with his directions and crude with his feedback.
+    - He seems to shrink when he’s around others and does not cultivate good relations with his coworkers.
+    - He lacks confidence and communicates inefficiently when he meets people.
+    - His communication skills are not good so others often misunderstand his message.
+    - He is unable to efficiently communicate with his colleagues.
+    - He creates distance between him and his colleagues because of his poor manners.
+    - He is not liked by those colleagues working with him despite the good impression the management team has of him.
+    - He feels shy when he communicates with others and he cannot build good relationships with his colleagues.
+    - His communication continues to be substandard. He consistently fails to properly notify team members about impending changes or other required information.
+    - He needs to improve his communication skills with his co- workers. He must learn to improve his communications with other employees and management.
+    - He needs to share department and corporate goals in a more timely and complete manner. His employees do not understand what the company is doing.
+    - During his time, he has gained nothing but left only scars of bad relationships with others.
+    - He tends to stand alone in the corner among a crowd. It’s hard to communicate with him.
+    - Many of his coworkers see him as unapproachable.
+    - He does not work well with others. He has a very strong personality and this has caused a rift on our team.
+    - He should continue to work on cultivating good relationships with those around him
+    - He is not good at communicating with others so he often makes them feel uncomfortable. It is better for him to improve his interaction skills to build good relationships with them.
+    - He does not understand how crucial good working relationships with fellow team members are.
+    - He blames others for problems too often.
+    - He needs to speak up more when faced with concerns.
+    - He often says “I don’t know” when confronted with a tricky question or problem.
+    - He does not return communications in a timely manner.
+    - He needs to work on listening to others.
+    - He constantly talks over others in meetings.
+    - He never talks in meetings.
+    - He works well with members of his own team, yet he has an “us” against “them” mentality when it comes to others within the company.
+
+
+
+
+
+- intent: lack_of_creativity_and_innovation
+  examples: |
+    - He does care about the creative side of her team and always ignores the innovate employees reporting to him.
+    - He does not encourage his team to find creative solutions.
+    - He appears to be a rigid manager, but if he thought in a more flexible way, it would do him well.
+    - He is unwilling to work on issues outside of her skill set. He should develop his troubleshooting ability and develop his career.
+    - He does not usually innovate and when he does, it is reluctantly.
+    - He cannot create new ideas.
+    - He is unwilling to consider new or interesting ideas, even when the run- of- the- mill ideas have been exhausted.
+    - He is not flexible enough to create new ideas when needed.
+    - He is not conducive to new ideas and innovations from his team.
+    - He demonstrates a lack of interest in contributing creative or innovative ideas.
+    - He is rigid and unwilling to adapt when presented with new information.
+    - He fails to properly attribute coworkers who contribute innovative solutions.
+    - He seems unwilling to take risks, even when there is a compelling reason and clear upside.
+    - He fails to incentivize peers to take creative and innovative risks.
+    - He is reluctant to find more effective ways to perform job activities.
+    - He discourages creative solutions from his team.
+    - He has a difficult time thinking “outside of the box” and creating new and untested solutions.
+    - He is creative but he has a tendency to act before thinking. This causes problems when an untested or unexamined idea is moved forward too quickly.
+    - He consistently takes a rigid and practical, stance about things without thinking how she could creatively solve a problem.
+    - He has shown a tendency to be a matter- of- fact manager, but in his position, thinking in a more resourceful manner would do him well.
+    - Whenever he runs into an obstacle, he has a tendency to stop and ask for help. We encourage him to develop solutions – or even recommendations – before asking for help.
+    - He does not research solutions deeply enough and often just compiles ideas found on websites. This does not help for many of the problems we run into.
+    - He rarely innovates and when he does, it seems forced.
+    - He fails to generate new ideas.
+    - He needs to work on being more resourceful on tasks and projects.
+    - He isn’t willing to take risks on creative ideas.
+    - He doesn’t rely on typical methods to solve a problem, but addresses each situation with a innovative viewpoint.
+    - He creates an exciting atmosphere for his team: one in which new ideas are rewarded and encouraged.
+    - He finds it difficult to develop breakthrough ideas and submit untested solutions.
+    - He is inventive but he usually acts without thinking. This will cause problems if an unchecked or untested idea is implemented as soon as it is thought of.
+    - He has a lot of creative ideas but he finds it difficult to bring them to fruition. He should learn how to marry creativity with practice.
+    - He does not want to refer to different solutions or ideas except the ones that he is using. This reduces the creativity of other member of the team.
+    - He discourages creative solutions from his team.
+    - He has shown a tendency to be a matter- of- fact manager, but in his position, thinking in a more resourceful manner would do him well.
+    - He does not research solutions deeply enough and often just compiles ideas found on websites. This does not help for many of the problems we run into.
+    - He rarely innovates and when he does, it seems to be reluctant.
+    - He needs to work on being more resourceful on tasks and projects.
+    - He can be a creative person with many interesting ideas but he cannot successfully to tap into it. He should promote and develop his potential is getting the balance of being pragmatic and creative right.
+    - He often applies his personal ideas to problem solving without any thought to other people’s alternatives or opinions. This stifles the team’s creativity.
+    - He shows a lack of communication and interaction with her team members. This prevents her from finding new ideas.
+    - His team feels discouraged as he often “shoots down” creative ideas without any explanation. He should be more willing to listen to ideas before he rejects them outright.
+    - He does not tap into the creative side of his team. He consistently overlooks the innovate employees reporting to him.
+    - He is a creative employee but he has a tendency to act before thinking. This causes problems when an untested or unexamined idea is moved forward too quickly.
+    - He actively seeks new ideas and approaches.
+    - He has launched creative initiatives such as [specific example].
+    - He is creative in finding ways to correlate ideas with action.
+    - He has become a constant well of fresh ideas.
+    - He needs to find more ways to take creative risks.
+    - He is unable to find more than one way to achieve a difficult task.
+    - He has proven himself to be an innovator at heart.
+    - He has a talent for thinking outside of the box, and encouraging others to do the same.
+    - He consistently provides a new angle or way of thinking about things.
+    - He can too often fall into the role of “naysayer.”
+    - He needs to be more resourceful in accomplishing goals and tasks.
+
+
+
+
+
+
+
+- intent: lack_of_accountability
+  examples: |
+    - He often tries to offset responsibility onto others.
+    - He is very reluctant to acknowledge his failures.
+    - He doesn’t accept responsibility well.
+    - He frequently looks for excuses for failure instead of accepting responsibility.
+    - He blames processes and policies for his own shortcomings.
+
+
+
+
+
+
+- intent: lack_of_customer_focus_and_customer_satisfaction
+  examples: |
+    - He often criticizes rivals in order to convince customers to use the services of his company,
+    - He strives to satisfy his customers’ needs in any situation, even if the company may suffer financially.
+    - He focuses on satisfying wide audience need where an individual approach to each client is needed.
+    - He spends too much time communicating with clients over the phone.
+    - He tries to clients’ questions immediately but neglects direct professional duties in the process.
+    - He always goes beyond his responsibilities in trying to support his clients in every situation,
+    - He sometimes treats his clients in an over- familiar manner. He crosses the line of the company’s corporate ethics.
+    - His emotional state is negatively impacted by an inability to take his mind off his work due to being available to clients at any time.
+    - He spends a lot of time and effort on creating good relationships with her clients, but the working environment leaves much to be desired.
+    - If he has any doubts about his own company, he recommends a rival company in the interests of his client.
+    - He sticks to the phone script rigidly and inflexibly. He needs to handle customers more creatively and flexibly.
+    - He can deal with the everyday customer service situations, but with complex issues, he is not flexible and does not know what action to take.
+    - His average time per call is too high. He needs to reduce the average time per call. He needs to deal with customers efficiently.
+    - He can deal with customers on the phone very well, but he does not handle face to face customer contact very well.
+    - He cannot maintain relationships with his customers well.
+    - His customers always give him low marks in the customer satisfaction surveys.
+    - He does not understand how to to solve problems with customers and gives up easily.
+    - He does not always listen to his customers well.
+    - He has not understood completely why customer service training is important. He is late to class frequently and sometimes does not take part at all.
+    - He consistently receives substandard comments from customers.
+    - He appears uninterested in helping customers with their challenges.
+    - He does not manage customer expectations, especially in tough situations.
+    - He consistently passes challenging issues to others instead of tackling them himself.
+    - He misses opportunities to further educate customers about other products or services.
+    - He uses inappropriate language with customers.
+    - He appears to become frustrated by clients who ask questions.
+    - He displays sarcasm when dealing with client challenges.
+    - He does not understand how to deal with a difficult customer. He passes difficult customers to his supervisor frequently.
+    - In most areas of customer service Harry does a good job, but when it comes to difficult situations, Harry does not understand how to calm the customer down and follow the script.
+    - Bill has consistently shown he does not listen to his customers well.
+    - Teri can handle the run of the mill customer service situation, but the more complex issues seem to cause her to freeze and not react.
+    - John fails to follow up with customers as requested.
+    - Bob has consistently low marks on his customer satisfaction surveys.
+
+
+
+
+
+
+
+- intent: lack_of_decision_making_and_problem_solving
+  examples: |
+    - He is too hesitant to make a decision. This often results in wrong decision.
+    - He applies overly complex and impractical approaches to solving problems.
+    - He fails to make short- lists of solutions recommended by direct units.
+    - He is often paralyzed and confused when facing tight deadlines to make decisions.
+    - He makes too many complaints about the content of the job.
+    - He tends to apply a narrow and rushed decision- making approach.
+    - He avoid conflicts at work in relation to the decision making process.
+    - He struggles to work out a solution to any difficult problem.
+    - He is uncomfortable when faced with any awkward problem.
+    - He easily loses focus when facing a complex situation.
+    - He fails to provide managers with the necessary information when a problem arises.
+    - He repeats his mistakes over and over again. He doesn’t know how to learn from failure.
+    - He is unable to find out a solution when facing a complicated situation.
+    - He cannot give managers the requisite information when an issue occurs.
+    - He makes mistakes again and again. John needs to learn the appropriate lessons from failure.
+    - He has difficulty coming up with resolution to difficult problems.
+    - He relies on others in heated situations.
+    - He loses his focus when problems arise.
+    - He is poor at communicating a problem’s status before it becomes a crisis.
+    - He can offer potential solutions to a problem but struggles to identify the best solution.
+    - She lacks the skill to analyze a problem to discuss the core issues.
+    - He resists further training in problem solving. He believes he is proficient, yet he is lacking in many areas.
+    - It is his responsibility, in his role, to solve problems. He seems slow and indecisive when presented with a major issue.
+    - He finds it hard to look for a solution to a difficult situation.
+    - He is impossible to submit needed information to the managers when he faces a complex situation.
+
+
+
+
+
+
+
+
+
+
+- intent: lack_of_dependability_and_reliability
+  examples: |
+    - We cannot depend on him. If a task must be completed it is better assigned to someone else.
+    - He does not believe in his efforts. He does not demonstrate a willingness to complete the job.
+    - He is never willing work overtime even if the jobs requires it.
+    - He shows no willingness to do what it takes to get the job done, especially in this economy.
+    - His reliability is in doubt. His work results are often poor and must be checked frequently.
+    - He tends to leave work for others to do; while most of his coworkers are willing to work late to finish the project.
+    - His productivity is not as good as that of his coworkers.
+    - He is very loyal but he cannot be depended on. He is an irresponsible person.
+    - He is usually reliable in his work, but there have been a few incidents where this was not the case.
+    - He is very loyal guy, but cannot be depended on.
+    - We need people who are willing to do whatever it takes to get the job done. He is not one of those people.
+    - He does not demonstrate a concern for others perception of him or his job performance.
+    - His results are not as consistent as those of her coworkers.
+    - He is not reliable for his effort and does not demonstrate a willingness to do whatever it takes to get the job accomplished.
+    - He does not show a willingness to help his employees out even when production is behind. Since being promoted to supervisor, he has taken a hands off approach to the detriment of her team.
+    - He demands reliability from others, but not from himself.
+    - He has energy, drive, and performance levels that are inconsistent and unpredictable.
+    - He talks about deliverables, but does not consistently deliver.
+    - He disappoints employees who depend on him.
+    - He makes promises that he doesn’t keep.
+    - He guarantees that deadlines will be met, but consistently misses them.
+    - He is reliable when it suits him, he constantly needs to be reminded to do tasks he does not enjoy.
+
+
+
+
+
+
+
+
+- intent: lack_of_ethics_and_integrity
+  examples: |
+    - He seems to be too focused on his appearance and following the dress code instead of working skills.
+    - His approach to respecting corporate ethics is too strict. The staff cannot show initiative in climate he has created.
+    - He is too restrained and does not encourage or compliment his personnel when he should.
+    - He fails to reprimand his employees even when they make serious mistakes in business negotiations.
+    - He goes into excessive details during business communications to make sure colleagues understands his point of view. It takes too much working time.
+    - His own high ethical approach and his faith in other people want to work ethically is often not justified.
+    - He values a mutually beneficial cooperation with his partners and maintains good relationships with them. He absolutely forgets about the necessary competitiveness, which is also important in business.
+    - He has created democratic and equal relationships with his employees but he should have been more demanding.
+    - He has occasionally made misleading statements that have needed to be corrected.
+    - He is often lax with regard to ethics in business dealings internationally. He must manage his employees to realize that international ethics must be more carefully considered.
+    - There are some accusations from customers that he been untruthful.
+    - He meets the letter of the law but frequently fails to respect the spirit as far as our ethics policy is concerned.
+    - Bending the rules is effectively breaking them in our line of work. He needs to be more cautious about sticking strictly to the rules as defined.
+    - He lets expedience take priority over integrity.
+    - He sets integrity aside when pursuing his goals.
+    - He tries to rationalize his less- than- meritorious behaviors.
+    - Integrity does not seem to rank particularly highly on his list of priorities.
+    - He always expects integrity from others, but doesn’t always display it himself.
+    - He demonstrates acceptable levels of integrity only intermittently.
+    - He has show several recent lapses in integrity.
+    - He violates company standards and expectations regarding employee integrity
+    - He has put the company at risk with his inappropriate actions.
+    - He engages in underhanded behaviors.
+    - Has taken actions that have caused his employees to question his integrity.
+    - He has generated complaints from customers because of issues with his integrity.
+    - He has been the cause of concern from vendors because of his integrity.
+    - He has cost the company customers and money because of his disingenuous behavior.
+    - He has engaged in questionable behaviors that have led to corporate embarrassment.
+
+
+
+
+
+
+- intent: lack_of_flexibility
+  examples: |
+    - He does not excel at activities which require a high degree of flexibility.
+    - He cannot refuse his colleagues’ requests. He excessively takes on extra work and additional problems.
+    - He always adapts to production changes by trying to please his manager. Standing on his own would be better.
+    - He fails to focus on his main task because he tries to gain more and more additional skills at his work.
+    - His employees abuse his willingness to allow them to work from home in case of necessity.
+    - He tries to perform several tasks simultaneously to finish work faster instead of setting the right priorities.
+    - He always accepts too many tasks and cannot cope with the huge amount of work in result.
+    - He can change his point of view without analyzing or defending it. He should be more certain about his proposals.
+    - Due to his high levels of responsibility, he cannot afford to relax and enjoy some time out of work.
+    - He tends to resist activities where the path is unknown.
+    - He appears uninterested in new duties.
+    - He becomes uptight when the plan changes.
+
+
+
+
+
+
+- intent: lack_of_goal_setting
+  examples: |
+    - He struggles to set goals that align with company objectives.
+    - He is ineffective at pursuing his goals.
+    - He is easily distracted at work. He fails to focus on his goals, resulting in failure.
+    - He devolves responsibility for deadlines and objectives to employees instead of accepting them as supervisor.
+    - He is ineffective at setting achievable goals.
+    - He Is inconsistent in defining goals and objectives.
+    - He assigns tasks to his employees without providing any information or feedback to keep them on the track.
+    - He sets performance goals that are out of touch with reality.
+    - He struggles to communicate when deadlines will be missed.
+    - He leaves peers struggling to understand the status of a project.
+    - He refuses to delegate to others. He attempts to do all the work by himself.
+    - He is unwilling to accept responsibility for missed goals.
+    - He is easily distracted. He is uninterested in focusing on achieving performance goals.
+    - He does not assign his staff effectively. His ineffective assignments mean he cannot reach assigned goals.
+    - He does not achieve goals or objectives because he does not focus on his performance.
+    - He will shift responsibility onto others for unaccomplished deadlines or goals.
+    - He sometimes does not reach the set goals.
+    - He often assigns his members duties without giving them information or feedback. The lack of information means staff do not know what should do.
+    - He rarely achieves goals due to his inability to assign the right duties to the right person.
+    - He doesn’t always communicate the right information to his staff to ensure they are successful with their tasks.
+    - He fails to achieve the goals because he doesn’t delegate to his staff effectively.
+    - He gets distracted and doesn’t reach his goals or objectives.
+    - He will blame others for missed deadlines and objectives.
+    - He sets goals that sometimes are not achievable.
+    - As a supervisor but he doesn’t accept responsibility is shared with his staff. He believes his employees are should accept all responsibility for deadlines, objectives and results.
+    - His goal- setting ability is not good. He sometimes asks his staff complete unachievable goals.
+    - He has a strong vision for the future, both personally, and for the company.
+    - He develops actionable goals and plans how to meet them.
+    - He implements plans swiftly and effectively. He adjusts plans when something is not working.
+    - He works to promote the company’s mission and vision.
+    - He contributes to the company’s larger goals.
+    - He needs to set goals that are more challenging.
+    - He constantly pursues opportunities for growth and learning.
+    - He should strive to aim a little higher when setting goals.
+    - He would benefit from reigning in goals and vision to something more achievable.
+    - He needs set goals that more accurately match his talent level.
+
+
+
+
+
+
+
+
+
+- intent: lack_of_initiativity
+  examples: |
+    - His experience and knowledge doesn’t reflect that listed in his application.
+    - He must be closely supervised if he is to his work.
+    - He is lethargic and lacks the desire or volition to learn new skills or develop his qualifications.
+    - It seems too difficult for him to do his job on his own.
+    - He won’t improve if he continues to neglect the opportunities in front of him.
+    - He does not seem to be adaptable. He is unable to perform consistently under pressure or thrive on constant change or challenge.
+    - He typically thinks inside the box and is afraid to risk doing anything in a new way.
+    - He is indecisive. He is unable to make quick decisions, take action or commit himself to a project’s completion.
+    - He does not seem to be an ideas person. He is not ready to generate or recognize new solutions when performing a task.
+    - He has poor abilities to establish priorities and courses of action for himself. He lacks the skills in planning and following up to achieve results.
+    - He does not use his experience and knowledge to its full potential.
+    - He needs close supervision when he is performing his assignments.
+    - He does not want to pick up any new techniques or skills.
+    - He finds it difficult to perform his duties without assistance or supervision.
+    - He lacks the excellence and skills detailed in his application.
+    - He needs constant guidance in order to accomplish his assignments.
+    - He does not actively want to learn new skills or techniques as or to improve his qualification.
+    - He doesn’t apply himself as much as he could given his experience and knowledge.
+    - He requires constant supervision to get his work completed.
+    - He doesn’t appear to want to learn any new techniques or skills.
+    - He has trouble doing his tasks without help or supervision.
+    - He doesn’t seek out opportunities to learn and grow within his role.
+    - He fails to think out of the box and prefers to do things the way they have always been done.
+    - He always has issues when he has to deal with tasks alone.
+    - He often neglects unexpected opportunities and loses the chance to improve himself.
+    - He often works in an unprofessional manner. He never risks doing anything innovatively.
+
+
+
+
+
+
+
+
+- intent: lack_of_job_knowledge
+  examples: |
+    - He cannot fulfill his duties due to his lack of necessary knowledge of the job.
+    - He is unable to perform even the simplest tasks. He cannot be let out of the sight of his supervisors.
+    - He is not as knowledgeable about the job and its requirements as we expected.
+    - He doesn’t know even the key fundamentals of the job. He always has to ask for other people’s instruction.
+    - He cannot complete his job because he does not have the needed job knowledge.
+    - He does not have ability to do even the easiest tasks and requires close supervision.
+    - He does not satisfy our expectations because he lacks the necessary job knowledge.
+    - He does not understand the core basics of the job. He always needs his colleagues’ help.
+    - He is continually turning in sub- par work and needs to improve his job knowledge.
+    - He repeatedly asks the same questions about his job duties. He does not retain the important information required to perform his job well.
+    - His skill set does not meet requirements for the job.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- intent: lack_of_judgment
+  examples: |
+    - He is more of an emotion- based decision maker.
+    - He fails to make sound judgments.
+    - He doesn’t consult others for ideas and make subjective judgments.
+    - He cannot handle pressure well and makes quick decisions that are normally not the best.
+    - He makes hasty decisions without first collecting the facts and data needed to make an informed decision.
+    - He consistently displays excessive hesitation when making a decision.
+    - He makes big decisions without the approval of all respective parties.
+    - He is unable to keep confidential information private.
+    - He approaches decisions with a one- track mindset.
+    - He commonly fails to consider all the facts before making a decision.
+
+
+
+
+
+
+
+
+
+- intent: lack_of_listening_skills
+  examples: |
+    - He does not pay attention when others are talking and frequently asks silly questions.
+    - He is easily distracted when listening to others.
+    - He interrupts others while they are speaking.
+    - He does not want to listen to others.
+    - He loses his temper easily when others give criticism.
+    - He interrupts others and changes their topics if he does not like them.
+    - He asks questions that show he is not actively listening to the conversation at hand.
+    - He Is easily distracted and doesn’t fully absorb other people’s points of view.
+    - He interrupts his peers.
+    - He constantly interjects into conversations.
+    - He dismisses other people’s ideas that he doesn’t agree with.
+    - He stops listening when presented with an opposing viewpoint.
+    - He is uninterested in what others have to say and interrupts others before they finish speaking.
+    - He does not listen to directions and repeatedly asks management to repeat themselves.
+    - He is an inattentive listener and rarely asks for clarification.
+    - He disregards customer feedback and interacts only when necessary.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- intent: lack_of_leadership_and_mentoring
+  examples: |
+    - He exaggerates the seriousness of problems.
+    - He confuses the employees through different directions and guidance.
+    - He disregards company policies tends to work by himself.
+    - He is rarely prepared to participate in discussions or meetings.
+    - He rarely shows appreciation for good performance.
+    - His leadership instincts cannot be relied on to manage others.
+    - He fails to explain procedures to his subordinates clearly. He lacks the qualifications to be an effective mentor.
+    - He expects everyone to know the regulations and procedures but never gives them any mentoring.
+    - He gets frustrated easily with new team members and fails to offer any support.
+    - He is often impatient and unhelpful.
+    - He tends to overanalyze problems when a prompt decision is required.
+    - He fails to plan for the future.
+    - He sends mixed signals to his team regarding goals and day- to- day activities.
+    - He rarely shows any recognition to his team.
+    - He sets unreasonably high expectations for his team.
+    - He fails to keep confidential information secret.
+    - He plays favorites and does not treat each member of the team equally.
+    - He ignores the company regulations prefers to work on his own.
+    - He seldom takes part in discussions or meetings.
+    - He seldom compliments staff on an excellent performance.
+    - He does not use his leadership skills appropriately to manage staff.
+    - He needs to know when to step back and let the team work.
+    - He sets expectations that are too high for his team.
+    - He rarely gives recognition to his team.
+    - He needs to establish an effective system for communication and information retrieval.
+    - He too often stifles innovation and creativity.
+    - He needs to focus on big picture items, yet he continues to micromanage his staff.
+    - He finds it difficult to delegate tasks which makes the team’s achievements entirely reliant on him.
+    - His lack of trust in his team members means that it is difficult for his team to accomplish anything.
+    - He is a capable manager but he is unable to influence people like a true leader.
+    - He is unable to persuade people to get the job done.
+
+
+
+
+
+
+
+
+
+- intent: lack_of_management_style_and_supervision
+  examples: |
+    - Despite being a good supervisor, he does not know how to lead his staff to achieve a perfect performance.
+    - He is poor at managing a high performance team. He does not know how to perform this task.
+    - He was a good employee but not good enough to become an excellent manager.
+    - He displays unfairness with his team and favors certain individuals.
+    - He is far from an expert manager of staff. His employees’ complaints about his impossible requirements are reasonable. He should learn to accept a reasonable work- personal life balance.
+    - He is a good supervisor but he is not expert in this field. He is unable to manage his team well and his team’s performance is not good.
+    - He tries to be both a manager and friend. He finds it hard to distinguish between his personal relationships and work relationships.
+    - He does not know how to set targets and lead his team to reach them. He feels confused when setting goals and leading his team forward.
+    - He fails to resolve conflict among subordinates.
+    - He fails to create a working environment meeting his subordinates’ expectation.
+    - He fails to show a frequent appreciation of his subordinates’ performance.
+    - He fails to actively resolve the problem of poor performances at work.
+    - He fails to resolve problems until they becomes conflicts.
+    - He fails to meet schedules.
+    - He does not cope very well with managing employees.
+    - He is an satisfactory supervisor but he does not excel. He does not always relate well to his employees and this shows in the group’s work effort.
+    - He has not made the transition from co- worker to manager very well. He has a difficult time separating his personal relationships with professional ones.
+    - He does not understand how to set team goals and manage his team to achieve them. He does not focus on the goals necessary to move his team forward.
+    - He understands how to manage personalities similar to his, but has not worked very hard managing other types of personalities on his team. He needs to better understand personality types and how they interrelate.
+    - He is a decent task manager, but falls short when it comes to setting a vision.
+    - There have been a few issues with his team that must be resolved. These issues could be detrimental to the performance of the department and should be the focus of the next few months.
+    - He understands how to handle difficult employees and manage difficult staff. We continue to have above average turnover on his team. This year, we need to focus on what issues are causing such high turnover.
+    - He is not very effective at managing his staff to a high performance level.
+    - He is a good supervisor, but has failed to manage his staff to high productivity.
+    - He does not understand the intricacies of managing a high performance team and has yet to perform.
+    - He was a great individual performer but so far has not proven he is a good manager.
+    - He has a tendency to play favorites and not treat all employees fairly.
+    - His employees consistently complain of unreasonable expectations.
+    - He is a good supervisor, but he is not expert in this field. He does not have a good connection with his staff and this affects the team’s performance.
+    - He has found it hard to becoming a manager after being a staff member. He has difficulty in distinguishing his personal relationships and working ones.
+    - He fails to manage his staff to gain effective performance.
+    - He is good at supervising, but he cannot manage his staff to efficient performance.
+    - He does not anticipate complications when managing a high performance team. He does not know how to perform well.
+    - He was an expert staff member but nothing has shown that she is proficient enough to become a manager.
+    - He is not effective at leading her team to high performance.
+    - He has not yet found a way to deal with situations in a group. His team produces poor results for the company..
+    - He is a great employee. However, he does not perform well as a manager.
+    - He does not perform very well in creating an honest and open environment for the employees he supervises.
+    - He is a decent task manager, but falls short when it comes to setting a vision.
+    - There have been a few issues with him as a leader and his team that must be resolved. These issues could be detrimental to the performance of the department and should be the focus of the next few months.
+    - He is not very effective at managing his staff to high performance.
+    - He is a good supervisor, but he has failed at managing his staff to high productivity.
+    - He does not understand the intricacies of managing a high performance team and has yet to perform.
+    - He is an capable supervisor but does not excel. He does not always relate well with his employees and this shows in the group’s work effort.
+    - He has not made the transition from co- worker to manager very well. He has a difficult time separating his personal relationships with professional ones.
+    - He does not understand how to set team goals and manage his team to achieve them. He seems to always be in survival mode without focusing on the goals necessary to move his team forward.
+
+
+
+
+
+
+
+
+
+
+- intent: lack_of_organizing_and_planning
+  examples: |
+    - He finds it difficult to plan an action without instruction.
+    - He fails to resolve problems in a timely manner.
+    - He lacks communication at work and is reluctant to support or offer assistance to those that need it.
+    - He has difficulties in understanding the strategy of the company or narrating a conceptual ideal to managers.
+    - He demonstrate a management- by- crisis style, which means a responsive style.
+    - He has met difficulties in handling his workload.
+
+
+
+
+
+
+
+
+
+- intent: lack_of_teamwork
+  examples: |
+    - He doesn’t have a good relationship with his team members. He sometimes refuses to accept their opinion.
+    - He is a loner. He is not suitable for teamwork tasks.
+    - He doesn’t want to share his knowledge in relation to the job with others.
+    - He does not actively cooperate with others.
+    - He holds on to too much and does not delegate to his team effectively.
+    - He focuses only on getting his own work accomplished. He does not take the time to help members of his team who are struggling to keep up.
+    - He is not consistent in supporting his teammates.
+    - He was a good at team player when he was just a member of the team, but now that he is in a supervisory role, he has lost many of those teamwork skills.
+    - He relies on his own knowledge and abilities and fails to ask others for help and their expertise.
+    - He is a team player most of the time, but frequently we have problems with his follow through when other teammates need help.
+    - He is focused on himself and does not think about the needs of those around him.
+    - He seems moreintent on accomplishing his own tasks rather than assisting others who might need help.
+    - He comes from a very individual focused work environment to a team focused one and has struggled to adjust.
+    - He focuses his team on accomplishing individual tasks and neglects to consider what could be accomplished if the team worked more cohesively together.
+    - He works with the team well when his own projects are coming due and he needs help, but once those are accomplished, he does not frequently help others on their projects.
+    - He does not understand how to share tasks with others.
+    - He is more suitable to an individual- focused environment than a group- work environment.
+    - He directed each member toward accomplishing their individual tasks. He didn’t focus on coordinating them toward one common goal.
+    - He does not monitor and follow up on her teams progress and as a result nothing is accomplished.
+    - He pays such strong attention to his own tasks that he does not consider the needs of his teammates.
+    - He often pays more attention on completing his tasks than support other teammates who might need his assistance.
+    - He does not assist his teammates as required.
+    - He holds on to too much and does not delegate to his team effectively.
+    - He focuses on getting his own work accomplished, but does not take the time to help those members of his team who are struggling to keep up.
+    - He works with the team well when his own projects are coming due and he needs help, but once those are accomplished, he does not frequently help others on their projects.
+    - Struggles when faced with activities which require a high amount of flexibility.
+    - He is resistant/open to change.
+    - He needs to show greater enthusiasm.
+    - He avoids delivering bad news when necessary or leaves the responsibility to others.
+    - Although his results are good, he could work on improving his general attitude or enthusiasm.
+    - He has a tendency to blame others for problems or poor results.
+    - He had good a good sense of teamwork when he was a member of the team but he lost it after becoming a supervisor.
+    - He only concerns himself with the achievement of each individual without considering what team will gain if they work together.
+    - He relies on his knowledge and skills to perform without asking colleagues for help and advice.
+    - He meets difficulty when working with a team he is to performing as an individual.
+    - He does not know how to cooperate with his colleagues in his team to achieve targets.
+    - He complains that he does not receive any assistance from others.
+
+
+
+
+
+- intent: lack_of_technical_skills
+  examples: |
+    - He is not good enough to be a technician.
+    - He has good knowledge of business, but he fails to properly communicate with other technical members of his team.
+    - He should attend more training sessions, He should study harder to improve his technical knowledge.
+    - His technical aptitude is not as good as it is displayed in his application.
+    - He sometimes seems to ignore technical concepts. He should apply more technical concepts to satisfy the requirements for his role.
+    - He is not aware how to adopt the latest technology. He needs excessive sessions of further training. He should be ready to face changes.
+    - He seems to find it hard when learning new technology.
+    - He is unable to get along with our technology even though our systems have been used for a long time and well documented.
+    - He should equip himself with more knowledge of technology for his job.
+    - He is not very adept at understanding new technology.
+    - He does not have the aptitude to understand the technical nuances they present even though our systems have been in place for many years and are well documented.
+    - His understanding of business is very good, however, his ability to communicate with the technical members of his team is holding him back.
+    - He needs to continue to improve his technical knowledge through training and self study.
+    - He needs to improve his technical understanding of his job.
+    - He is not a technician but some basic technical knowledge is required in his role. He needs to work on his technical knowledge.
+    - He needs to work on being able to think outside of the box. He should think beyond the manuals, and troubleshoot technical issues which are not documented.
+    - He is not technical enough for his role.
+    - He surprised us by not being more technical in nature considering his background.
+    - He should learn the technical concepts required for his position. Technical concepts sometimes seem to pass him by.
+    - He needs to focus more on understanding the trends and changes in the fast changing world marketplace.
+    - He needs to work on adapting better to new systems or technologies.
+    - He is continually searching for ways to improve.
+    - His professional growth seems to have halted.
+    - He has grown a lot since hiring, but he still has great room for further growth.
+
+
+
+
+
+
+
+- intent: lack_of_time_management
+  examples: |
+    - He is a good employee but if he knew how to manage his time more suitably he would be more effective.
+    - He thinks that the tools provided to him are not necessary and he does not use them.
+    - He does not know how to use his time appropriately to complete his assignments.
+    - He does not know how to manage his time and he cannot satisfy deadlines of projects again and again.
+    - He should learn how to manage his time in a more effective way.
+    - He should make a work plan for each week. He spends too much time performing his assignments without a proper plan.
+    - He spends too much time on things such as email and Internet.
+    - He does not have the ability to work under pressure.
+    - He is trained how to use his time efficiently but he is still unable to manage it.
+    - He cannot complete his tasks because he manages his time ineffectively.
+    - He usually needs too much time than it takes to complete his duties.
+    - He takes too much time to perform his tasks. We advise him to make concrete plan for every week.
+
+
+
+
+
+
+
+
+
+
+- intent: lack_of_training_ability
+  examples: |
+    - He does not maintain the training equipment fully between classes.
+    - He does not exchange class concepts to with colleagues though she still joins the training sessions.
+    - He does not require his staff to take part in the training sessions even only with minimum hours every year.
+    - He appears to think that the training sessions are not important so he does not concentrate on them.
+    - He should not joke in the training classes. He should concentrate on the content of training lessons.
+    - He should take part in more training opportunities and concentrate on them.
+    - He should prepare before coming to training sessions, This will help him understand all knowledge that trainers are imparting.
+    - He does not know how to apply the knowledge learned in training sessions into his performance.
+    - He declares that training sessions are not necessary despite the many new challenges he and his team are facing.
+
+
+
+
+
+
+
+
+
+- intent: lack_of_attitude
+  examples: |
+    - His choice of language can be inappropriate. His level of voice is also inappropriate at times.
+    - He has a tendency to trigger problems between his coworkers.
+    - He excessively tries to talk about non- work related topics. He should keep his conversations work related.
+    - He has a tendency to be irked over minor things. His volatile nature makes his coworkers uneasy.
+    - He should concentrate more on the positive sides of his duties and his team.
+    - He has a tendency to be disruptive after difficult decisions have been announced.
+    - He fails to maintain his normally positive attitude in stressful situations and often resorts to inappropriate tone and language.
+    - His talents are very valuable to the company; nevertheless, his attitude to work is somewhat lacking.
+    - His demeanor can be unapproachable and this negatively impacts the morale of his team.
+    - He needs to control his temper and attitude, he needs to learn not to react too strongly towards negative situations.
+    - He can be the cause of conflicts between his coworkers.
+    - He has an overly sensitive and pessimistic personality. He is easily upset by problems or difficult situations. He should try to think more positively, focus on the good and avoid being overly concerned with his perceived negatives.
+    - He often has troubles with his coworkers when they work together. He is easily angered and argumentative with his colleagues.
+    - His argumentative attitude in conversations his colleagues can make them angry. He is clearly aware of this but he has made no attempt to change his demeanor when talking about non- work related topics. It is highly recommended that he improves his attitude.
+    - He is somewhat pessimistic and his moods affect other employees.
+    - He is careless and unmotivated, which ultimately slows the team down.
+    - He does not handle stressful situations well.
+    - He complains about coworkers too often. His complaints build resentment within his team.
+    - He is not approachable and is tough to work with.
+    - He continually talks negatively about projects or tasks assigned to him.
+    - He always has a negative attitude towards his work.
+    - His attitude is poor in general impacts his work.
+    - He talks negatively about other team members.
+    - He needs to focus on the positive aspects of his job and his team.
+    - He is constantly disrespects his manager.
+    - He often isolates himself and does not take constructive criticism well.
+
+
+
+
+
+
+
+- intent: lack_of_critical_thinking
+  examples: |
+    - He never considers potential changes in circumstances when making decisions.
+    - He rarely thoroughly thinks decisions through.
+    - He does not have the ability to implement a reasonable solution to an issue.
+    - His suggestions are never unique.
+    - He has a tendency to make decision without thinking through its potential consequences.
+    - He makes decisions hastily without thinking.
+    - He never considers the possible consequences of his decisions.
+    - He never thinks twice before making any decision.
+    - He often does not consider the situations that may occur while during performing his duties.
+    - His decision making process is too hurried.
+    - He employs problem- solving techniques that end up generating even more problems.
+    - He creates more problems than he solves.
+    - He overlooks or underestimates problems until they become major issues.
+    - He analyzes minor issues and lets larger problems fester and grow
+    - He decides on the solution before properly analyzing it.
+    - He comes up with solutions that are incorrect, insufficient, and invalid.
+    - He doesn’t analyze the situation and the potential affect of his solutions carefully before making a final decision.
+    - He is unable to find the most effective solutions for problem because his ideas are always mediocre.
+
+
+
+
+
+
+
+- intent: general_issue
+  examples: |
+    - His team meetings often overrun the allotted time. He should work to improve his time management skills to ensure meetings begin and end as scheduled.
+    - He is frequently late for work and does not adhere to a proper work schedule.
+    - He needs to work on his ability to accept feedback from coworkers.
+    - He should improve his communication with his management team.
+    - He frequently withholds information from his team.
+    - He has a tendency to make other people feel intimidated when they propose new ideas or ask for assistance.
+    - He should work on approaching his coworkers in a more professional and welcoming manner.
+    - He does not attempt to take creative risks. He creates a stiff environment that is not conducive to innovation.
+    - He does not adhere to the sales script that is proven for success. He attempts to unacceptably modify the script.
+    - He does not work within the company policies that are proven for ultimate success rates.
+    - He does not always ensure his customers are satisfied. He has had complaints filed against him for inappropriate responses to customer feedback.
+    - He frequently misses targets and does not keep up to date with the objectives expected of him.
+    - He does not willingly take on additional responsibility or step forward when new tasks or projects arrive.
+    - He consistently relies on other people.
+    - He should work to improve his interaction with customers and how well he meets their needs.
+    - He rarely shows appreciation to his employees for a job well done.
+    - He should be more open to feedback and apply it to his work to increase his accuracy and productivity.
+
+  
+- intent: mood_unhappy
+  examples: |
+    -  I am sad
+    -  I don't feel very well
+    -  I am disappointed
+    -  my day was horrible
+    -  This is bad
+    -  I am sick-intent
+    -  I am ill
+    -  I am all low today
+    -  Its dissapointing
+    -  How irritating it is
+    -  Am irritated
+    -  I am not feeling well
+    -  This sucks!
+    -  I am feeling too bad
+    -  Worst day ever!
+    -  This feels bad
+    -  I feel low
+    -  Everything is bad today
+    -  I feel very sad
+    -  Feels horrible
+    -  This is depressing
+    -  I am depressed
+    -  I feel bored
+    -  I am feeling bored
+    -  life is boring
+    -  I am feeling empty
+    -  I feel useless
+    -  aweful
+    -  depressed-intent
+    -  awful
+    -  terrible
+    -  not very good
+    -  extremely sad
+    -  so sad
+    -  Im feeling down
+    -  I'm feeling sad
+    -  Im feeling sad
+    -  Im not okay
+    -  Im feeling low
+    -  Not good
+    -  I'm awful
+    -  I'm feeling very sad
+    -  I'm uneasy
+    -  Actually I'm not fine
+    -  I'm not good
+    -  I am as lonely as can be
+    -  I am going through a rather rough time
+    -  I'm grieving
+  
+- intent: mood_angry
+  examples: |
+    -  I am angry
+    -  I am feeling so angry
+    -  I am so annoyed
+    -  It's annoying
+    -  That's aggravating
+    -  I'm furious
+    -  That is infuriating
+    -  I'm very mad
+    -  Everything vexes me
+    -  I am outraged
+    -  That is outrageous!
+    -  I feel hostile
+    -  I am very frustrated
+    -  It is irritating me
+    -  I feel so offended
+    -  I am full of fury
+    -  I feel very belligerent
+    -  I hate doing this
+    -  I have no patience today
+    -  I could not control my anger
+    -  I’m annoyed
+    -  I’m super annoyed
+    -  I’m so mad.
+    -  I'm enraged
+    -  I’m straight up angry.
+    -  This is maddening!
+    -  I'm pissed off
+    -  I'm pissed
+    -  You bet I'm angry
+    -  That made me angry
+    -  U made me angry
+    -  I'm still angry about that
+
+- intent: mood_scared
+  examples: |
+    -  I am scared
+    -  I feel scared
+    -  I'm worried
+    -  I am terrified
+    -  That is frightening
+    -  I feel intimidated
+    -  That is intimidating
+    -  I am petrified
+    -  I am afraid
+    -  I feel anxious
+    -  I'm having a bad feeling
+    -  I'm fearful
+    -  I panicked
+    -  I shrank back in fear
+    -  I am scared to death
+    -  I broke out in a cold sweat
+    -  That startled me!
+    -  I'm spooked easily
+    -  I'm trembling from fear
+    -  I'm horrified
+
+- intent: mood_nervous
+  examples: |
+    -  I am nervous
+    -  I am stressed out
+    -  I feel nervous
+    -  I am anxious
+    -  I feel anxious
+    -  This is nerveracking
+    -  This is nervewracking
+    -  This is nerve racking
+    -  This is nerve wracking
+    -  I feel like I am going to throw up
+    -  I have a lump in my throat
+    -  I have butterflies in my stomach
+    -  I am a bundle of nerves
+    -  I am breaking out in a cold sweat
+    -  I am afraid of my own shadow
+    -  I am like a cat on hot bricks
+    -  I am jumping out of my skin
+    -  I am at my wits' end
+    -  I am tongue tied
+    -  I am on edge
+    -  I am very tense
+    -  I feel uneasy
+    -  I am alarmed
+    -  I am troubled
+    -  I'm tensed
+    -  I'm stressed
+    -  I'm under a lot of stress
+    -  I'm constantly worried
+    -  I feel constant tension
+    -  I’m anxious.
+    -  I’m suffering from anxiety.
+    -  I’ve been feeling rather anxious lately.
+    -  My anxiety is rather through the roof these days.
+    -  I’m feeling rather restless
+    -  I cannot concentrate as I'm worried constantly
+    -  I'm under immense stress
+    -  It's been a rough couple of days. VERY stressful
+    -  I'm quite tensed.
+    -  There's been quite a few changes in my life. I don't think I am handling them well. It's quite stressful.
+    -  I find myself worrying about every little detail
+    -  I am a chronic worrier.
+    -  I’m feeling rather restless and a horde of worries is bothering me
+    -  I cannot concentrate due to the whole number of worries that are bothering me
+
+
+  
+
+
+
+

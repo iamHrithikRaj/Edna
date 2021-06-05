@@ -1,0 +1,202 @@
+version: "2.0"
+
+rules:
+
+- rule: Say `Hello` when the user starts a conversation with intent
+  conversation_start: true
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Appreciate when user is happy
+  steps: 
+  - intent: mood_happy
+  - action: utter_happy
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Ask 'why' when user is excited
+  steps:
+  - intent: mood_excited
+  - action: utter_mood_excited
+
+- rule: Ask 'why' when user is sad
+  steps:
+  - intent: mood_sad
+  - action: utter_mood_sad
+
+- rule: Ask 'why' when user is angry
+  steps:
+  - intent: mood_angry
+  - action: utter_mood_angry
+
+- rule: Ask 'why' when user is scared
+  steps:
+  - intent: mood_scared
+  - action: utter_mood_scared
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Detect Collaboration and Cooperation 
+  steps:
+  - intent: lack_of_collaboration_and_cooperation
+  - action: utter_lack_of_collaboration_and_cooperation
+
+- rule: Attendance and Punctuality 
+  steps:
+  - intent: lack_of_commitment_and_professionalism
+  - action: utter_lack_of_commitment_and_professionalism
+ 
+
+- rule: Productivity and Quality of Work
+  steps:
+  - intent: lack_of_productivity_and_quality_of_work
+  - action: utter_lack_of_productivity_and_quality_of_work
+
+ 
+
+- rule: Adaptability
+  steps:
+  - intent: lack_of_adaptability
+  - action: utter_lack_of_adaptability
+
+- rule:  Communication and Interpersonal Skills 
+  steps:
+  - intent: lack_of_communication_and_interpersonal_skills
+  - action: utter_lack_of_communication_and_interpersonal_skills
+
+- rule: Creativity and Innovation 
+  steps:
+  - intent: lack_of_creativity_and_innovation
+  - action: utter_lack_of_creativity_and_innovation
+
+- rule: Accountability
+  steps:
+  - intent: lack_of_accountability
+  - action: utter_lack_of_accountability
+
+- rule: Customer Focus and Customer Satisfaction
+  steps:
+  - intent: lack_of_customer_focus_and_customer_satisfaction
+  - action: utter_lack_of_customer_focus_and_customer_satisfaction
+
+
+- rule: Decision
+  steps:
+  - intent: lack_of_decision_making_and_problem_solving
+  - action: utter_lack_of_decision_making_and_problem_solving
+
+- rule: Dependability and Reliability 
+  steps:
+  - intent: lack_of_dependability_and_reliability
+  - action: utter_lack_of_dependability_and_reliability
+
+
+- rule: Ethics and Integrity 
+  steps:
+  - intent: lack_of_ethics_and_integrity
+  - action: utter_lack_of_ethics_and_integrity
+ 
+
+- rule: Flexibility
+  steps:
+  - intent: lack_of_flexibility
+  - action: utter_lack_of_flexibility
+ 
+
+- rule: Goal Setting 
+  steps:
+  - intent: lack_of_goal_setting
+  - action: utter_lack_of_goal_setting
+
+ 
+- rule: Initiative 
+  steps:
+  - intent: lack_of_initiativity
+  - action: utter_lack_of_initiativity
+
+ 
+
+- rule: Job Knowledge 
+  steps:
+  - intent: lack_of_job_knowledge
+  - action: utter_lack_of_job_knowledge
+
+ 
+
+- rule: Judgment 
+  steps:
+  - intent:  lack_of_judgment
+  - action: utter_lack_of_judgment
+
+ 
+
+- rule: Listening Skills 
+  steps:
+  -  intent: lack_of_listening_skills
+  -  action: utter_lack_of_listening_skills
+  
+ 
+
+- rule: Leadership and Mentoring 
+  steps:
+  -  intent: lack_of_leadership_and_mentoring
+  -  action: utter_lack_of_leadership_and_mentoring
+ 
+
+- rule: Management Style and Supervision 
+  steps:
+  -  intent: lack_of_management_style_and_supervision
+  -  action: utter_lack_of_management_style_and_supervision
+ 
+
+- rule: Organizing and Planning 
+  steps:
+  -  intent: lack_of_organizing_and_planning
+  -  action: utter_lack_of_organizing_and_planning
+
+- rule: Teamwork 
+  steps:
+  -  intent: lack_of_teamwork
+  -  action: utter_lack_of_teamwork
+
+- rule: Technical Skills 
+  steps:
+  -  intent: lack_of_technical_skills
+  -  action: utter_lack_of_technical_skills
+
+- rule: Time Management 
+  steps:
+  -  intent: lack_of_time_management
+  -  action: utter_lack_of_time_management
+
+- rule: Training Ability 
+  steps:
+  -  intent:  lack_of_training_ability
+  -  action: utter_lack_of_training_ability
+ 
+
+- rule: Attitude 
+  steps:
+  -  intent: lack_of_attitude
+  -  action: utter_lack_of_attitude
+ 
+
+- rule: Critical Thinking 
+  steps:
+  -  intent: lack_of_critical_thinking
+  -  action: utter_lack_of_critical_thinking
+
+
+- rule: General Phrases 
+  steps:
+  -  intent: general_issue
+  -  action: utter_general_issue
+
+
