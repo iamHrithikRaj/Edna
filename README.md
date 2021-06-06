@@ -10,6 +10,5 @@
 
 ## Made With
 <p align="center">
-  <img width=100 src="rasa.png" alt="made_with_logo" />
-   <img width=100 src="spacy.png" alt="mmade_with_logo" />
+  <img width=100 src="rasa.png" alt="made_with_logo" />                               <img width=100 src="spacy.png" alt="mmade_with_logo" />
 </p>
