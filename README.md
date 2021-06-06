@@ -1,5 +1,3 @@
 <p align="center">
-  
-![logo](./BlessBoks(1).gif)
-
+  <img src="BlessBoks.gif" alt="animated" />
 </p>
