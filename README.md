@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="BlessBoks(1).gif" alt="animated" />
+  <img src="BlessBoks(1).gif" width="20px" alt="animated" />
 </p>
 
 ## What's BlessBoks?
